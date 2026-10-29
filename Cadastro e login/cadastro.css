@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #e7ebe8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26332a;
+}
+
+/*Estrutura geral*/
+.pagina {
+    display: flex;
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+/*Lado esquerdo*/
+.apresentacao {
+    width: 45%;
+    box-sizing: border-box;
+    padding: 35px 30px;
+    background-color: #1f4d36;
+    color: #ffffff;
+}
+.apresentacao h1 {
+  color: #a9e59c;
+  font-size: 24px;
+  margin: 0 0 80px;
+
+}
+
+.apresentacao h2 {
+    color: white;
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.apresentacao p {
+ line-height: 1.6;
+ color:#d0dcd3;
+}
+
+.beneficios {
+    margin-top: 50px;
+    padding:20px;
+    border: 1px solid #688674;
+    border-radius: 8px;
+}
+.beneficios h3 {
+    color: #a9e59c;
+    margin-top: 0;
+} 
+
+/*Lado direito*/
+.area-cadastro {
+    width: 55%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+}
+.area-cadastro h2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+}
+.area-cadastro p{
+    color: #777777;
+    margin:0;
+}
+form {
+    margin-top: 25px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input :focus{
+    outline: none;
+    border-color: #235b40;
+}
+button{
+    width: 100%;
+    padding: 14px;
+    background-color: #235b40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: #163c2a;
+}
+.login{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
